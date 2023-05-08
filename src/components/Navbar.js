@@ -40,10 +40,10 @@ const Navbar = () => {
                                 :
                                 <>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/signup">Register</a>
+                                        <Link className="nav-link" to="/signup">Register</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/login">Login</a>
+                                        <Link className="nav-link" to="/login">Login</Link>
                                     </li>
                                 </>
                         }
