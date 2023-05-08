@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+
 import axios from 'axios';
 import Axios from '../APIs/Axios';
 
@@ -7,6 +9,8 @@ import Error from '../components/Error';
 import Success from '../components/Success';
 
 const SignupScreen = () => {
+
+    const navigate = useNavigate();
 
     const [name, setname] = useState('');
     const [email, setemail] = useState('');
@@ -63,7 +67,8 @@ const SignupScreen = () => {
                 setdatingCharge('');
                 setimage('');
 
-                window.location.href = "/home";
+                // window.location.href = "/home";
+                navigate("/home");
             } catch (error) {
                 console.log(" error in post req in signup", error)
                 setloading(false)

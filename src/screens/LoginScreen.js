@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import Axios from '../APIs/Axios';
+import { useNavigate } from 'react-router-dom'
+
 
 import Loader from '../components/Loader';
 import Error from '../components/Error';
 import Success from '../components/Success';
 
 const Loginscreen = () => {
+
+    const navigate = useNavigate();
 
     const [email, setemail] = useState('');
     const [password, setpassword] = useState('');
@@ -33,7 +37,8 @@ const Loginscreen = () => {
             localStorage.setItem('token', result.authtoken);
             localStorage.setItem('name', result.name);
 
-            window.location.href = '/home';
+            // window.location.href = '/home';
+            navigate("/home");
         } catch (error) {
             console.log("error in login ", error)
 
