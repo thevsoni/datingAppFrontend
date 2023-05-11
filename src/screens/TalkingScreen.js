@@ -86,7 +86,7 @@ const TalkingScreen = () => {
                                     <h1>{provider.name}</h1>
                                     <b>
                                         <p>Age : {provider.age}</p>
-                                        <p>Dating Charge : {provider.datingCharge}</p>
+                                        {/* <p>Dating Charge : {provider.datingCharge}</p> */}
                                         <p>State : {provider.state}</p>
                                         <p>District : {provider.district}</p>
                                         {provider.currentStatus === true && <button type="button" class="btn btn-primary">Online</button>}

@@ -54,7 +54,7 @@ const Provider = ({ provider, user }) => {
                     <h1>{provider.name} {provider.isVerified === true && <i className="fa-solid fa-check" style={{ color: "white", backgroundColor: "green", fontSize: "1.5rem" }}></i>} </h1>
                     <b>
                         <p>Age : {provider.age}</p>
-                        <p>Dating Charge : {provider.datingCharge}</p>
+                        {/* <p>Dating Charge : {provider.datingCharge}</p> */}
                         <p>State : {provider.state}</p>
                         <p>District : {provider.district}</p>
                     </b>
