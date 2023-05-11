@@ -17,7 +17,7 @@ const LandingScreen = () => {
                 <div className="col-md-12 text-center">
 
                     <h3 style={{ color: 'white', fontSize: '130px' }}>Dating App</h3>
-                    <h2 style={{ color: 'white' }}>Have Money, Got Honey</h2>
+                    <h2 style={{ color: 'white' }}>Have Money, Get Honey</h2>
 
 
                     <Link to='/home'><button className='btn landingbtn'>Get Started</button></Link>
