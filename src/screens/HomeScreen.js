@@ -183,14 +183,14 @@ const HomeScreen = () => {
                         }
 
                         {/* price filter */}
-                        {providers && <div className="col-md-3">
+                        {/* {providers && <div className="col-md-3">
                             <select className='form-control' id='pt' onChange={(e) => { setpriceFilter(e.target.value); filterByPrice(e.target.value) }}>
                                 <option value="normal">default prices filter</option>
                                 <option value="ascending">ascending</option>
                                 <option value="descending">descending</option>
                             </select>
                         </div>
-                        }
+                        } */}
                     </div>
                     <div className='justify-content-center mt-5'>
                         {providers && providers.map((provider, key) => {

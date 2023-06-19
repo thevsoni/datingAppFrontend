@@ -23,8 +23,6 @@ code {
   font-weight:500
 }
 
-
-
 .smallimg{
   height: 300px;
   width: 100% !important; 
@@ -37,7 +35,6 @@ code {
   border-radius: 5px !important;
   padding: 20px !important;
 }
-
 .landing{
   background:url("https://images.unsplash.com/photo-1494403687614-8ca3e13f154f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlZGlzaCUyMGxvdmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
@@ -47,7 +44,6 @@ code {
   height: 91vh;
   padding-top: 80px;
   z-index: -1;
-
 }
 .landingbtn{
   background-color: green !important;
